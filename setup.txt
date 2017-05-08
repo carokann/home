@@ -87,6 +87,7 @@ npm install gulp -D
 sudo apt-get install yarn
 sudo apt-get update && sudo apt-get install yarn
 sudo apt-get install pandoc
+echo >> ~/.zshrc 'export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin'
 
 sudo apt-get install retext
 sudo apt-get install nodejs
