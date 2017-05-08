@@ -94,3 +94,6 @@ sudo apt-get install nodejs
 sudo apt-get install gpart
 sudo apt-get install pv
 
+sudo apt-get install ksshaskpass
+git config --global core.askpass /usr/bin/ksshaskpass
+
