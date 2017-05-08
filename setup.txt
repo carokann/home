@@ -1,0 +1,95 @@
+
+
+#sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-367
+
+start -> software manager
+install nvidia-settings
+
+start -> software manager
+official repositories
+(click) select fastest
+
+http://askubuntu.com/questions/190146/no-sound-after-suspend-resume
+
+install google chrome
+
+sudo apt-get install gnome-tweak-tool alien xdotool xbindkeys xautomation
+
+preferences -> windows -> alt-tab style
+
+echo 'set completion-ignore-case On' >> ~/.inputrc
+
+xbindkeys --defaults >~/.xbindkeysrc
+
+
+sudo sensors-detect
+sensors
+
+
+add applet bash-sensors
+echo 'GPU' $( nvidia-smi -q -d TEMPERATURE | grep Current | cut -d: -f2 ) '°'
+
+
+
+
+#############################################
+
+sudo apt-get install curl
+sudo apt-get install zsh
+https://github.com/robbyrussell/oh-my-zsh
+
+sudo apt-get install vim
+
+sudo apt-get install bluez-compat
+sudo apt-get install build-essential libqt4-dev libgeis-dev libx11-6 libxtst-dev
+git clone https://github.com/JoseExposito/touchegg.git
+sudo apt-get build-dep touchegg
+echo >>~/.xprofile '/home/jim/bin/touchegg &'
+
+sudo apt-get install gnome-tweak-tool
+sudo apt-get install xdotool
+sudo apt-get install alien
+sudo apt-get install xbindkeys
+sudo apt-get install xautomation
+sudo apt-get install x11proto-core-dev
+sudo apt-get install clipit
+sudo apt-get install --reinstall pulseaudio pulseaudio-module-x11
+sudo apt-get purge nvidia*
+sudo apt-get install nvidia-367
+sudo apt-get install udevinfo
+sudo apt-get install gparted
+sudo apt-get install livecd-tools
+sudo apt-get install rhythmbox
+sudo apt-get install gnome-screenshot
+sudo apt-get install mtp-tools mtpfs
+sudo apt-get install imagemagick
+sudo apt-get install unzip
+sudo apt-get install zip
+sudo apt-get autoremove 
+sudo apt-get install simplescreenrecorder
+sudo apt-get install git
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+sudo apt-get install maven
+sudo apt-get install gradle
+sudo apt-get install mongodb-clients
+sudo apt-get install nrg2iso
+sudo apt-get install retext
+
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
+npm install gulp-cli -g
+npm install gulp -D
+
+sudo apt-get install yarn
+sudo apt-get update && sudo apt-get install yarn
+sudo apt-get install pandoc
+
+sudo apt-get install retext
+sudo apt-get install nodejs
+sudo apt-get install gpart
+sudo apt-get install pv
+
