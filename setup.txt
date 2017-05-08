@@ -96,4 +96,6 @@ sudo apt-get install pv
 
 sudo apt-get install ksshaskpass
 git config --global core.askpass /usr/bin/ksshaskpass
+git config --global push.default simple
+
 
