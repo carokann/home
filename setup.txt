@@ -39,9 +39,11 @@ echo 'GPU' $( nvidia-smi -q -d TEMPERATURE | grep Current | cut -d: -f2 ) '°'
 
 sudo apt-get install curl
 sudo apt-get install zsh
+
 https://github.com/robbyrussell/oh-my-zsh
 
 sudo apt-get install vim
+sudo apt-get install git
 
 sudo apt-get install bluez-compat
 sudo apt-get install build-essential libqt4-dev libgeis-dev libx11-6 libxtst-dev
