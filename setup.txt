@@ -96,8 +96,13 @@ sudo apt-get install nodejs
 sudo apt-get install gpart
 sudo apt-get install pv
 
-sudo apt-get install ksshaskpass
-git config --global core.askpass /usr/bin/ksshaskpass
 git config --global push.default simple
 
+#sudo apt-get install ksshaskpass
+#git config --global core.askpass /usr/bin/ksshaskpass
+
+
+sudo apt-get install libgnome-keyring-dev
+sudo make --directory=/usr/share/doc/git/contrib/credential/gnome-keyring
+git config --global credential.helper /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
 
